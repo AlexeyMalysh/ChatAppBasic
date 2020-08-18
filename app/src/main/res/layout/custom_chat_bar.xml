@@ -7,23 +7,23 @@
 
     <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/custom_profile_image"
-        android:src="@drawable/profile_image"
-        android:layout_alignParentTop="true"
         android:layout_width="48dp"
         android:layout_height="48dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="12dp"/>
-    
+        android:layout_marginRight="12dp"
+        android:src="@drawable/profile_image" />
+
     <TextView
         android:id="@+id/custom_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Display Username:"
         android:textColor="@android:color/background_light"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/custom_user_last_seen"

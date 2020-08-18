@@ -9,6 +9,7 @@
     <include
         android:id="@+id/settings_toolbar"
         layout="@layout/app_bar_layout"/>
+
     <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/set_profile_image"
         android:layout_width="250dp"
@@ -17,8 +18,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
         android:src="@drawable/profile_image"
-        app:civ_border_width="5dp"
-        app:civ_border_color="@color/colorPrimary"/>
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="5dp" />
 
     <EditText
         android:id="@+id/set_user_name"

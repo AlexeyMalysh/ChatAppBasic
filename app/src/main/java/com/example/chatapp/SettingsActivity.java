@@ -145,11 +145,11 @@ public class SettingsActivity extends AppCompatActivity {
 
         if(TextUtils.isEmpty(setusername))
         {
-            Toast.makeText(SettingsActivity.this,"Please write your user name first...",Toast.LENGTH_SHORT).show();
+            Toast.makeText(SettingsActivity.this,"Please write your first name first...",Toast.LENGTH_SHORT).show();
         }
         else if(TextUtils.isEmpty(setuserstatus))
         {
-            Toast.makeText(SettingsActivity.this,"Please write your status first...",Toast.LENGTH_SHORT).show();
+            Toast.makeText(SettingsActivity.this,"Please write your last...",Toast.LENGTH_SHORT).show();
         }
         else
         {
